@@ -1,0 +1,23 @@
+{
+  "name": "farmers-online-granary",
+  "version": "1.0.0",
+  "description": "Farmer's Online Granary - Karnataka-focused direct agricultural marketplace",
+  "scripts": {
+    "init:db": "cd backend && node scripts/init-db.js",
+    "test:e2e": "cd backend && node scripts/test-e2e.js",
+    "dev:backend": "cd backend && node server.js",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "karnataka",
+    "agriculture",
+    "marketplace",
+    "farmers",
+    "mysql",
+    "react",
+    "express"
+  ],
+  "author": "Farmer's Online Granary Team",
+  "license": "ISC"
+}
